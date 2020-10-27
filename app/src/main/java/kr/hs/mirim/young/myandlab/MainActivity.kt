@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import kr.hs.mirim.young.myandlab.ch04widget.CalActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         mButton2.setOnClickListener {
             //val intent = Intent(this, Fourbutton2Activity::class.java)
             startActivity(Intent(this, Fourbutton2Activity::class.java))
+        }
+
+        findViewById<Button>(R.id.button3).setOnClickListener {
+            startActivity(Intent(this, CalActivity::class.java))
         }
     }
 }
