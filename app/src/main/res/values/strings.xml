@@ -7,4 +7,10 @@
     <string name="openPhoto">갤러리 열기</string>
     <string name="back">돌아가기</string>
     <string name="btncal">심플 계산기(p176, 위젯)</string>
+    <string name="btnbasicwidget">기본위젯연습(p.185, 위젯)</string>
+    <string name="bulb">천정등</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="androidPhone">안드로이드폰</string>
+    <string name="iPhone">아이폰</string>
+    <string name="windowPhone">윈도폰</string>
 </resources>
