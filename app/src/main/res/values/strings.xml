@@ -13,4 +13,5 @@
     <string name="androidPhone">안드로이드폰</string>
     <string name="iPhone">아이폰</string>
     <string name="windowPhone">윈도폰</string>
+    <string name="LovelyPetApp">애완동물 사진보기 앱</string>
 </resources>
