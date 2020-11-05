@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kr.hs.mirim.young.myandlab.R
 
-class WidgetActivity : AppCompatActivity() {
+class LovelyPetActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_widget)
+        setContentView(R.layout.activity_lovely_pet)
     }
 }
