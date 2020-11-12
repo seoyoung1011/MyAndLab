@@ -12,7 +12,7 @@ import kotlin.NumberFormatException
 import kotlin.Exception
 import kotlin.NullPointerException
 
-class CalActivity : AppCompatActivity(), View.OnClickListener{
+abstract class CalActivity : AppCompatActivity(), View.OnClickListener{
 
     lateinit var edit1 : EditText;
     lateinit var edit2 : EditText
@@ -30,8 +30,7 @@ class CalActivity : AppCompatActivity(), View.OnClickListener{
         edit1.setText("0")
         edit2.setText("0")
 
-        findViewById<Button>(R.id.btnAdd).setOnClickListener(this)
-        {
+        findViewById<Button>(R.id.btnAdd).setOnClickListener{
             try{
                 textResult.text = (Integer.parseInt(edit1.text.toString()) + Integer.parseInt(edit2.text.toString())).toString()
             }catch(e:NullPointerException){
@@ -45,11 +44,5 @@ class CalActivity : AppCompatActivity(), View.OnClickListener{
 
     }
 
-    override fun onClick(p0: View?) {
-        TODO("Not yet implemented")
-    }
 }
 
-private fun Button.setOnClickListener(calActivity: CalActivity, function: () -> Unit) {
-
-}

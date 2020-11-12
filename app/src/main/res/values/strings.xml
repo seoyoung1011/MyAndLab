@@ -16,4 +16,6 @@
     <string name="LovelyPetApp">애완동물 사진보기 앱</string>
     <string name="rotate">Rotate</string>
     <string name="rotateImage">이미지 회전하기</string>
+    <string name="NoXmlButton">코드로 만든 버튼</string>
+    <string name="Botton_datetimebook">시간예약</string>
 </resources>
