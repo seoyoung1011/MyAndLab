@@ -18,4 +18,6 @@
     <string name="rotateImage">이미지 회전하기</string>
     <string name="NoXmlButton">코드로 만든 버튼</string>
     <string name="Botton_datetimebook">시간예약</string>
+    <string name="Button_datetimebook">datetime</string>
+    <string name="Button_ViewFilpper">뷰플리퍼</string>
 </resources>
